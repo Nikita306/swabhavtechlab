@@ -1,0 +1,6 @@
+firstname,lastname,mobileNo,annulIncome
+nikita,jadhav,123,3.5
+trupti,mahale,234,3.6
+aditya,jadhav,456,3.7
+radha,gaywal,789,3.8
+ankur,yadhav,369,3.9

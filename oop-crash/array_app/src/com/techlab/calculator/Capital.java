@@ -2,8 +2,9 @@ package com.techlab.calculator;
 
 public class Capital {
 	public static void main(String[] args) {
-		String result = conversionIntoCapital("hello world");
-		System.out.println(result);
+		String result = "hello world";
+		
+	System.out.println(conversionIntoCapital(result));
 	}
 
 	public static String conversionIntoCapital(String inputString) {
@@ -12,7 +13,7 @@ public class Capital {
 		String capital=" ";
 		for (int i = 0; i < inputString.length(); i++) {
 			capital=word[i].substring(0 ,1).toUpperCase()+word[i].substring(1);
-			//System.out.println(capital);
+			System.out.print(capital);
 		}
 		return capital;
 

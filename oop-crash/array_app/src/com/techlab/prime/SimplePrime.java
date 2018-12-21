@@ -13,9 +13,9 @@ public class SimplePrime {
 	public static void main(String[] args) {
 		boolean primes = prime(17);
 		if (primes == true) {
-			System.out.println("No is  prime");
+			System.out.println("Number is  prime");
 		} else {
-			System.out.println("No is not Prime");
+			System.out.println("Number is not Prime");
 		}
 
 	}

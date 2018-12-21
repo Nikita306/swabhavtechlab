@@ -27,7 +27,7 @@ public class EmployeeTest {
 		employee3.setLastName("jadhav");
 		employee3.setSalary(60000);
 		employee3.setCommission(0.2);
-		printDetails(employee3);
+		//printDetails(employee3);
 
 		Employee employee[] = new Employee[3];
 		employee[0] = employee1;

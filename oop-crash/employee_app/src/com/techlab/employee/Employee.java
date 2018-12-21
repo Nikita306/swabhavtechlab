@@ -1,13 +1,27 @@
 package com.techlab.employee;
 
+import com.techlab.employee.test.EmployeeTime;
+
 public class Employee {
 	private int id;
 	private String firstName;
 	private String lastName;
 	private int salary;
 	private double commission;
+	private EmployeeTime time;
 	
+	public Employee(){
+		
+	}
 	
+	public Employee(int id,String firstName,String lastName,int salary,double commission,EmployeeTime time){
+		this.id=id;
+		this.firstName=firstName;
+		this.lastName=lastName;
+		this.salary=salary;
+		this.commission=commission;
+		this.time=time;
+	}
 	
 	public void setId(int id1){
 		if(id1>0){
@@ -27,7 +41,7 @@ public class Employee {
 		this.lastName=lastName1;
 	}
 	public String getLastName(){
-		return firstName;
+		return lastName;
 	}
 	public void setSalary(int salary1){
 		this.salary=salary1;
@@ -47,7 +61,9 @@ public class Employee {
 		return commission;
 	}
 	
-	
+	public EmployeeTime time(){
+		return time;
+	}
     	
 
 }

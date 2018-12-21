@@ -1,4 +1,4 @@
-package com.techlab.humanTest;
+package com.techlab.humantest;
 
 import com.techlab.human.Human;
 
@@ -7,7 +7,7 @@ public class HumanTest {
 		Human human1 = new Human("nikita", 6f, 60f, 22);
 		Human human2 = new Human("nik", 5f, 50f, 22);
 		printDetails(human1);
-		printDetails(human2);
+		//printDetails(human2);
 		Human human3 = new Human("trupti",22);
 		printDetails2(human3);
 		
