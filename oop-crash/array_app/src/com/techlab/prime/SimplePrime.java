@@ -11,11 +11,17 @@ public class SimplePrime {
 	}
 
 	public static void main(String[] args) {
-		boolean primes = prime(17);
+	/*	boolean primes = prime(17);
 		if (primes == true) {
 			System.out.println("Number is  prime");
 		} else {
 			System.out.println("Number is not Prime");
+		}*/
+		
+		for(int k=2;k<100;k++){
+			if(prime(k)){
+				System.out.println(k);
+			}
 		}
 
 	}

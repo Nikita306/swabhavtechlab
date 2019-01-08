@@ -18,11 +18,11 @@ public class PlayerTest {
 		System.out.println("PlayerID=" + player2.getplayerId());
 		
 		System.out.println(player3.equals(player2));
-		System.out.println(10.5);
-		System.out.println(true);
-		System.out.println(player1);
-		System.out.println(player1.toString());
-		System.out.println(player1.getAge());
+		//System.out.println(10.5);
+		//System.out.println(true);
+	//	System.out.println(player1);
+		//System.out.println(player1.toString());
+	//	System.out.println(player1.getAge());
 		
 	}
 

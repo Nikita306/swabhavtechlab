@@ -1,6 +1,7 @@
 package com.techlab.filehandling;
 
 import java.io.FileInputStream;
+import java.io.FileNotFoundException;
 
 public class ReadFile {
 	public static void readFromFile() throws Exception {
