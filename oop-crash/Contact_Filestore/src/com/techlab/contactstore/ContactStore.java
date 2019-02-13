@@ -13,8 +13,8 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.logging.FileHandler;
 
-public class ContactStore implements Serializable {
-	public ArrayList<Contact> contactList;
+public class ContactStore  {
+	private ArrayList<Contact> contactList;
 	private String filename = "contact\\contactfile.ser";
 	
 	
@@ -36,7 +36,6 @@ public class ContactStore implements Serializable {
 	}
 
 	public Contact search(String fname) {
-		;
 		Contact contactfound = null;
 		for (Contact c : contactList) {
 			if (c.getFname().equalsIgnoreCase(fname)) {

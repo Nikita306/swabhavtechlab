@@ -14,7 +14,7 @@ public class ContactStore {
 	}
 	public void addToList(Contact addContact){
 		contactList.add(addContact);
-		System.out.println(addContact.getFname()+" "+addContact.getLname()+" "+addContact.getPhoneNo());
+		//System.out.println(addContact.getFname()+" "+addContact.getLname()+" "+addContact.getPhoneNo());
 	}
 	
 	public ArrayList<Contact> getContact(){

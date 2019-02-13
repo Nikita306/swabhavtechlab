@@ -12,9 +12,7 @@ public class Anagram2 {
 
 	public static int[] cheackAnagram(String string1) {
 		String string1Lower = string1.toLowerCase();
-		// String string2Lower = string2.toLowerCase();
 		int storingArray[] = new int[255];
-
 		char c = 0;
 		for (int i = 0; i < string1Lower.length(); i++) {
 			c = string1Lower.charAt(i);
@@ -22,14 +20,10 @@ public class Anagram2 {
 				string1Lower = string1Lower.replace(string1Lower.substring(i, i + 1), "");
 			}
 		}
-
 		for (int i = 0; i < string1Lower.length(); i++) {
 			int index1 = (int) string1Lower.charAt(i);
-			// int index2 = (int) string2Lower.charAt(i);
 			storingArray[index1]++;
-			// storingArray[index2]++;
 		}
-
 		return storingArray;
 	}
 

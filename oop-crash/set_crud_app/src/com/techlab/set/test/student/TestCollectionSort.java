@@ -1,7 +1,5 @@
 package com.techlab.set.test.student;
 
-import java.util.Collections;
-import java.util.HashSet;
 import java.util.Set;
 import java.util.TreeSet;
 
@@ -21,5 +19,9 @@ public class TestCollectionSort {
 		set.add(student3);
 		System.out.println(set.size());
 		System.out.println(set);
+		
+		for(Student a:set){
+			System.out.println(a.getRollno()+" "+a.getName());
+		}
 	}
 }

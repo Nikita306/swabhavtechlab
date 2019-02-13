@@ -1,0 +1,10 @@
+Maharashtra:Mumbai
+Goa:Panaji
+Gujarat:Gandhinagar
+JammuKashmir:Srinagar
+Karnataka:Bengaluru
+Kerala:Thiruvananthapuram
+HimachalPradesh:Shimla
+Nagaland:Kohima
+Punjab:Chandigarh
+TamilNadu:Chennai
